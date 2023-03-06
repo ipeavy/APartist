@@ -2,10 +2,18 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    /* Firefox */
+    image-rendering: -o-crisp-edges;
+    /* Opera */
+    image-rendering: -webkit-optimize-contrast;
+    /* Webkit (non-standard naming)*/
+    -ms-interpolation-mode: nearest-neighbor;
     font-family: montserrat, sans-serif;
     font-style: normal;
     font-weight: 900;
-    background-image: url("https://imagedelivery.net/69_vwp5TEvZvAzsHMtkORA/d2cbc9d3-f734-4e68-2cd1-b08b0c476000/background");
+    background-image: url("https://imagedelivery.net/69_vwp5TEvZvAzsHMtkORA/38c4bf54-65a7-44fa-223c-b6c817db6500/largedesktop");
 
     @include breakpoint(medium) {
         height: 600px;
